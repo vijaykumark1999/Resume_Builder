@@ -1,6 +1,5 @@
 import { useState } from "react";
 import './App.css';
-import { Button } from "react-native";
 
 function App() {
   const [name,setName] = useState("");
