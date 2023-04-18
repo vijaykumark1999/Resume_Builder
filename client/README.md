@@ -1,24 +1,25 @@
-# This React-App is an simple resume creator app used to generate atractive resume
+# React Resume Creator
 
-This project is avilable in (https://github.com/vijaykumark1999/Resume_Builder).
+This is a web application built with React that allows users to create and customize their own resumes. The app provides an intuitive interface for inputting personal information, adding education and work experience, and customizing the resume's layout and design.
 
-### Available Scripts
+### Features
 
-In the project directory, you can run:
+*Input personal information, including name, contact information, and summary
+*Add education details, including school name, degree, and graduation year
+*Add work experience details, including company name, job title, and duration
+*Customize resume layout and design using pre-defined templates
+*Preview and download the created resume as a PDF file
+*Responsive design for optimal viewing on desktop and mobile devices
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+### Follow the steps below to set up and run the project locally:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and install dependencies using npm install.
+3. Start the development server with npm start(It will automatically open browser and load app if not automaticall redirected follow step 4).
+4. Open a web browser and go to http://localhost:3000 to view the app.
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -39,32 +40,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
