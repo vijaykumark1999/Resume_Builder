@@ -4,9 +4,8 @@ This is a web application built with React that allows users to create and custo
 
 ## Features
 
-+Input personal information, including name, contact information, and summary
-
-+Add education details, including school name, degree, and graduation year
++ Input personal information, including name, contact information, and summary
++ Add education details, including school name, degree, and graduation year
 
 +Add work experience details, including company name, job title, and duration
 
