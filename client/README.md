@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# This React-App is an simple resume creator app used to generate atractive resume
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is avilable in (https://github.com/vijaykumark1999/Resume_Builder).
 
-##### Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
