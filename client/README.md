@@ -24,5 +24,5 @@ This is a web application built with React that allows users to create and custo
 ###Packages to be installed
 
 
-##Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please follow the standard GitHub workflow: Fork the repository, create a branch, make changes, and submit a pull request. Please provide clear and concise commit messages and adhere to the project's coding conventions.
