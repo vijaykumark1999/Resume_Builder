@@ -5,10 +5,15 @@ This is a web application built with React that allows users to create and custo
 ## Features
 
 *Input personal information, including name, contact information, and summary
+
 *Add education details, including school name, degree, and graduation year
+
 *Add work experience details, including company name, job title, and duration
+
 *Customize resume layout and design using pre-defined templates
+
 *Preview and download the created resume as a PDF file
+
 *Responsive design for optimal viewing on desktop and mobile devices
 
 
