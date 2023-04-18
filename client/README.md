@@ -2,7 +2,7 @@
 
 This is a web application built with React that allows users to create and customize their own resumes. The app provides an intuitive interface for inputting personal information, adding education and work experience, and customizing the resume's layout and design.
 
-### Features
+## Features
 
 *Input personal information, including name, contact information, and summary
 *Add education details, including school name, degree, and graduation year
