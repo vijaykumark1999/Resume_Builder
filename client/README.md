@@ -20,8 +20,8 @@ This is a web application built with React that allows users to create and custo
 2. Navigate to the project directory and install dependencies using npm install.
 3. Start the development server with npm start(It will automatically open browser and load app if not automaticall redirected follow step 4).
 4. Open a web browser and go to http://localhost:3000 to view the app.
-##Packages Used
-###Packages to be installed
+## Packages Used
+### Packages to be installed
 
 
 ## Contributing
