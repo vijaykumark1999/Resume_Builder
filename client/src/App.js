@@ -1,42 +1,38 @@
-import { useState } from "react";
 import './App.css';
-import Axios from "axios";
+import Login from './pages/login';
+import Signup from './pages/signup';
+import { Route, Routes, Link } from 'react-router-dom';
 
 
 function App() {
-  
-  const [uname,setName] = useState("");
-  const [password,setPassword] = useState("");
-  const login1 = () =>{
-    Axios.post('http://localhost:3001/login',{ uname: uname, password: password}).then(()=>{
-      console.log("done");
-    });
-  };
 
-  
-  const cle =() =>{
-    console.clear()
-  }
   return (
     <>
-    <div className="container">
-      <div className="centered">
-    <label className="us">USER NAME</label><br/>
-    <input type="text" className="myInput" placeholder="USER NAME" onChange={(event) => {
-      setName(event.target.value)
-    }}/><br/>
-    <label className="pa">PASSWORD</label><br/>
-      <input  className="myInput" type="password" placeholder="PASSWORD" onChange={(event) => {
-      setPassword(event.target.value)
-    }}/><br/>
-    <div className="after"></div>
-    <button className="submit" id="submit" type="submit" onClick={login1} >SUBMIT </button>
-    <button className="clear" id="clear" type="clear" onClick={cle}>CLEAR</button>
-    </div>
-    </div>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+      <div>
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <Link to="/login">Login</Link>
+            </li>
+            <li class="nav-item"><Link to="/signup">Signup</Link></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+
+      <p class="signup-login">Already have an account? <a href="#" class="signup-login-link">Log In</a></p>
+
+
     </>
 
   );
 }
-
 export default App;

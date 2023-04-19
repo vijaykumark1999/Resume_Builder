@@ -22,7 +22,34 @@ app.listen(3001, ()=>{
     console.log("You Are Good To Go")
 });
 
-app.post('/login',( req ,res) =>{
+app.get('/log',( req ,res) =>{
+    const uname = req.body.uname;
+    const password = req.body.password; 
+    const sqlinsert = "select * from resume.users where username=?"; 
+    db.query(sqlinsert, [uname] , function(Error, result) { 
+    if (Error) { 
+    console.log(Error) 
+    }else{ 
+    console.log(result) 
+    res.send(result) 
+    } 
+    }); 
+   }); 
+
+   app.post("/api/", (req, res) => { 
+    const resumeid = req.body.uname;
+    const sqlinsert = "SELECT * FROM resume.users WHERE username=?"; 
+    db.query(sqlinsert, [resumeid] , function(err, result) { 
+    if (err) { 
+    console.log(err) 
+    }else{ 
+    console.log(result) 
+    res.send(result) 
+    } 
+    }); 
+   }); 
+
+app.post('/api1/',( req ,res) =>{
     const uname = req.body.uname;
     const password = req.body.password;
     const sqlinsert =   "insert into resume.users (username,password) values(?,?)"
